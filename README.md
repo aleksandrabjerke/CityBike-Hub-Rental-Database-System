@@ -139,10 +139,4 @@ The first version worked, but reviewing it later I found several issues, which I
 | Order IDs were generated with `MAX(id) + 1` | SQLite assigns IDs automatically |
 | Logic and `input()` were mixed together | Logic is in plain functions, so it can be unit-tested |
 
-## What I learned
 
-<!-- Write this in your own words – 3–4 bullet points. For example:
-- what was hardest in the ER model and why you chose the design you did
-- why enforcing rules in the database (constraints) is safer than only in Python
-- what the revenue bug taught you about checking numbers from two different places
--->
